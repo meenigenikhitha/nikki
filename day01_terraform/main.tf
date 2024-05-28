@@ -3,16 +3,16 @@ resource "aws_instance" "name" {
     instance_type = var.instance_type
     key_name = var.key_name
     tags = {
-      Name = "arjun123"
+      Name = "arjun"
 
     }
   
 }
-resource "aws_s3_bucket" "name" {
-  bucket = "zttazxcvbn"
+#resource "aws_s3_bucket" "name" {
+ # bucket = "zttazxcvbn"
 
   
-}
+#}
 
 
 
